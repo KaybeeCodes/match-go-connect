@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Film, Plane, Music, Utensils, Coffee, Mountains, Book, Gamepad } from "lucide-react";
+import { Film, Plane, Music, Utensils, Coffee, Mountain, Book, Gamepad } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
@@ -9,7 +9,7 @@ const categories = [
   { name: "Concerts", icon: Music, color: "bg-purple-100 text-purple-600" },
   { name: "Dining", icon: Utensils, color: "bg-amber-100 text-amber-600" },
   { name: "Coffee", icon: Coffee, color: "bg-brown-100 text-brown-600" },
-  { name: "Hiking", icon: Mountains, color: "bg-green-100 text-green-600" },
+  { name: "Hiking", icon: Mountain, color: "bg-green-100 text-green-600" },
   { name: "Reading", icon: Book, color: "bg-indigo-100 text-indigo-600" },
   { name: "Gaming", icon: Gamepad, color: "bg-pink-100 text-pink-600" },
 ];
